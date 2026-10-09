@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa Taco - Menu & Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 1rem; line-height: 1.5; }
+    header, footer { text-align: center; }
+    nav a { margin: 0 0.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+    caption { font-weight: bold; text-align: left; padding: 0.5rem 0; }
+    th, td { padding: 0.5rem; border-bottom: 1px solid #ccc; text-align: left; }
+    td:last-child, th:last-child { text-align: right; }
+    figure { margin: 0 0 1rem; text-align: center; }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Casa Taco</h1>
+    <p>Fresh tacos and coffee, every day.</p>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PROJECT 1: Menu built with a table -->
+    <section id="menu">
+      <h2>Our Menu</h2>
+
+      <table>
+        <caption>Tacos</caption>
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Carne Asada Taco</td><td>$3.50</td></tr>
+          <tr><td>Chicken Taco</td><td>$3.00</td></tr>
+          <tr><td>Veggie Taco</td><td>$2.75</td></tr>
+        </tbody>
+      </table>
+
+      <table>
+        <caption>Drinks</caption>
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Coffee</td><td>$2.00</td></tr>
+          <tr><td>Horchata</td><td>$2.50</td></tr>
+          <tr><td>Fresh Lime Soda</td><td>$2.25</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- PROJECT 2: Gallery built with img + alt -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Replace each <code>src</code> with your own photo, e.g. <code>images/tacos.jpg</code>.</p>
+
+      <figure>
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200'><rect width='300' height='200' fill='orange'/><text x='150' y='125' font-size='72' text-anchor='middle'>🌮</text></svg>"
+          alt="Three carne asada tacos on a plate with lime wedges"
+          width="300" height="200">
+        <figcaption>Our signature carne asada tacos</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200'><rect width='300' height='200' fill='tan'/><text x='150' y='125' font-size='72' text-anchor='middle'>☕</text></svg>"
+          alt="A steaming cup of coffee on a wooden table"
+          width="300" height="200">
+        <figcaption>Fresh coffee, made to order</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200'><rect width='300' height='200' fill='lightgreen'/><text x='150' y='125' font-size='72' text-anchor='middle'>🍋</text></svg>"
+          alt="Glass of lime soda with ice and a lime slice"
+          width="300" height="200">
+        <figcaption>Fresh lime soda</figcaption>
+      </figure>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Casa Taco. Open daily 8am - 9pm.</p>
+  </footer>
+
+</body>
+</html>
